@@ -1,0 +1,124 @@
+* {
+	margin: 0;
+	padding: 0;
+}
+
+nav {
+	background: black;
+	color: white;
+	padding: 10px;
+}
+nav a, nav select {
+	text-decoration: none;
+	color: white;
+	font-size: 20px;
+	margin-right: 10px;
+	padding: 5px;
+	border-radius: 10px;
+}
+nav a:hover {
+	background: gray;
+}
+#band { 
+	text-align: center;
+	margin: 10px auto;
+}
+.musician {
+	display: inline;
+	height: 200px;
+	width: 200px;
+	border-radius: 20px;
+	margin: 10px;
+}
+#tour {
+	background: black;
+	color: white;
+	text-align: center;
+	padding: 20px;
+	width: 100%;
+}
+.tours {
+	display: inline-block;
+	width: 300px;
+	background: white;
+	padding: 5px;
+	color: black;
+	border-radius: 20px;
+	margin: 20px 40px;
+}
+#tour-title {
+	font-family: 'Syne Mono', monospace;
+	font-size: 50px;
+	margin: 10px;
+}
+#tour-subtitle {
+	font-family: 'Oswald', sans-serif;
+
+	font-size: 20px;
+	margin: 10px;
+}
+.tours .title {
+	font-size: 20px;
+}
+.tours .date {
+	color: gray;
+}
+.tours button {
+	background: black;
+	color: white;
+	font-size: large;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid black;
+	cursor: pointer;
+}
+.tours button:hover {
+	background: gray;
+	color: black;
+	border-color: gray;
+}
+#contact {
+	margin: auto;
+	width: 70%;
+	text-align: center;
+	padding: 20px;
+}
+#address {
+	float: left;
+	width: 300px;
+	height: 250px;
+	box-sizing: border-box;
+	padding-top: 80px;	
+}
+#forms {
+	float: right;
+	margin-right: 50px;
+	padding: 30px;
+	text-align: right;
+	width: max-content;
+}
+#forms * {
+	margin: 5px;
+	font-size: large;
+}
+#name, #email {
+	height: 30px;
+
+}
+#email {
+	margin-left: 30px;
+	margin-right: 0;
+}
+textarea {
+	display: block;
+	font-size: large;
+	width: 100%;
+}
+form button {
+	background: black;
+	color: white;
+	margin: 5px;
+	padding: 5px;
+	border: 2px solid black;
+	cursor: pointer;
+}
